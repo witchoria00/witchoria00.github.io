@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNIN</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <ion-icon name="arrow-up-outline"></ion-icon>
+    </button>
+
+<!-- Nav -->
+<nav class="navbar">
+    <a href="#home" class="logo">HNIN</a>
+    
+    <!-- Hamburger Button for Mobile -->
+    <button class="hamburger-btn" aria-label="Menu" aria-expanded="false">
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+    </button>
+
+    <!-- Desktop Navigation -->
+    <ul class="nav-links desktop-nav">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#experience" class="nav-item">Experience</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#achievements" class="nav-item">Achievements</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+        <li>
+            <button id="theme-switch" aria-label="Toggle theme">
+                <ion-icon name="sunny-outline" id="day"></ion-icon>
+                <ion-icon name="moon-outline" id="night"></ion-icon>
+            </button>
+        </li>
+    </ul>
+
+    <!-- Mobile Navigation Panel -->
+    <div class="mobile-nav-panel">
+        <div class="mobile-nav-header">
+            <span class="mobile-logo">HNIN</span>
+            <button class="mobile-close-btn" aria-label="Close menu">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+        <ul class="mobile-nav-links">
+            <li><a href="#home" class="mobile-nav-item">Home</a></li>
+            <li><a href="#about" class="mobile-nav-item">About</a></li>
+            <li><a href="#experience" class="mobile-nav-item">Experience</a></li>
+            <li><a href="#skills" class="mobile-nav-item">Skills</a></li>
+            <li><a href="#achievements" class="mobile-nav-item">Achievements</a></li>
+            <li><a href="#contact" class="mobile-nav-item">Contact</a></li>
+            <li class="mobile-theme-switch">
+                <button id="mobile-theme-switch" aria-label="Toggle theme">
+                    <ion-icon name="sunny-outline" id="mobile-day"></ion-icon>
+                    <ion-icon name="moon-outline" id="mobile-night"></ion-icon>
+                    <span>Theme</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="mobile-nav-overlay"></div>
+</nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="introduction">
+            <img class="myphoto" src="img/me.jpg" alt="My photo" />
+
+            <div class="introduce">
+                <p class="quote">Imagination &gt; Reality</p>
+
+                <div class="nameline">
+                    <h1 class="hello">Hi, I'm</h1>
+                    <h1 class="name">Hnin Yati Khing aka Hnin</h1>
+                </div>
+
+                <p class="intro-text">
+                    I'm a passionate Software Engineer dedicated to building reliable, user-friendly web applications.
+                    With a focus on clean code, modern technologies, and problem-solving, I turn ideas into scalable
+                    solutions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <p class="section-mini">HNIN</p>
+        <h1>About Me</h1>
+        <p class="section-desc">
+            My name is Hnin Yati Khing aka Hnin, and I am a 19-year-old recent graduate with a Higher National Diploma
+            in Software Engineering
+            from Info Myanmar College, earned in December 2025. I have a strong passion for problem-solving and building
+            reliable software solutions with clean, maintainable code
+            and I am eager to contribute my skills to your team.
+        </p>
+
+        <div class="biography">
+            <div class="collage">
+                <div class="collage-item"><img src="img/img1.jpg" alt=""></div>
+                <div class="collage-item"><img src="img/2.jpg" alt=""></div>
+                <div class="collage-item"><img src="img/3.jpg" alt=""></div>
+            </div>
+
+            <div class="bio-video">
+                <div class="details">
+                    <div class="detailbox"><ion-icon name="calendar-outline"></ion-icon>
+                        <h4>Birthdate: July 2006</h4>
+                    </div>
+                    <div class="detailbox"><ion-icon name="person-outline"></ion-icon>
+                        <h4>Gender: Female</h4>
+                    </div>
+                    <div class="detailbox"><ion-icon name="call-outline"></ion-icon>
+                        <h4>Phone: +959 955 361 360</h4>
+                    </div>
+                    <div class="detailbox"><ion-icon name="flag-outline"></ion-icon>
+                        <h4>Nationality: Burmese</h4>
+                    </div>
+                    <div class="detailbox"><ion-icon name="location-outline"></ion-icon>
+                        <h4>Address: Yangon, Myanmar</h4>
+                    </div>
+                    <div class="detailbox"><ion-icon name="mail-outline"></ion-icon>
+                        <h4>Email: hninyati3106@gmail.com</h4>
+                    </div>
+                </div>
+
+                <div class="collage2">
+                    <div class="collage-item2"><img src="img/4.jpg" alt=""></div>
+                    <div class="collage-item2"><img src="img/5.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sectionbreaker"></div>
+
+    <!-- Experience -->
+    <section id="experience">
+        <p class="section-mini">CAREER</p>
+        <h1>Experience</h1>
+        <p class="section-desc">
+            As a recent graduate, I am eager to begin my career as a Software Engineer and apply my academic knowledge
+            to real-world projects.
+            Through my studies and personal projects, I have developed a strong foundation in software development and a
+            continuous learning mindset.
+        </p>
+
+        <div class="card-container">
+            <button class="arrow left" aria-label="Previous card"><ion-icon
+                    name="caret-back-outline"></ion-icon></button>
+            <button class="arrow right" aria-label="Next card"><ion-icon
+                    name="caret-forward-outline"></ion-icon></button>
+
+            <div class="cards-wrapper">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <div class="logo">MIND Education (Myanmar)</div>
+                        <div class="role">Volunteer Project Coordinator</div>
+                    </div>
+
+                    <div class="card-content">
+                        <ul>
+                            <li>- Coordinated education-focused activities and sessions designed to support teenagers'
+                                learning and personal development.</li>
+                            <li>- Communicated with mentors/speakers and supported scheduling, confirmations, and
+                                session preparation.
+                            </li>
+                            <li>- Assisted in organizing event logistics (agenda, materials, participant support) to
+                                ensure smooth program delivery.</li>
+                            <li>- Collaborated with the team to track progress, gather feedback, and improve future
+                                sessions and engagement.</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-tools"><strong>Tools:</strong> Google Workspace (Docs/Sheets), Communication tools
+                    </div>
+                    <div class="card-footer">February 2025 - Nov 2025 | Yangon, Myanmar</div>
+                </div>
+
+                <div class="experience-card">
+                    <h3>Coming Soon!</h3>
+                </div>
+                <div class="experience-card">
+                    <h3>Coming Soon!</h3>
+                </div>
+            </div>
+
+            <div class="radio-buttons">
+                <input type="radio" name="card" id="card1" checked>
+                <label for="card1"></label>
+                <input type="radio" name="card" id="card2">
+                <label for="card2"></label>
+                <input type="radio" name="card" id="card3">
+                <label for="card3"></label>
+            </div>
+        </div>
+    </section>
+
+    <div class="sectionbreaker" style="margin-top: -100px;"></div>
+
+  <!-- Skills -->
+<!-- Skills -->
+<section id="skills">
+    <p class="section-mini">MY CAPABILITIES</p>
+    <h1>Skills & Expertise</h1>
+    <p class="section-desc">
+        A blend of technical proficiency and interpersonal abilities that enable me to build effective solutions and collaborate efficiently.
+    </p>
+
+    <!-- Hard Skills (Technical) -->
+    <div class="skills-category">
+        <h2><ion-icon name="code-slash-outline"></ion-icon> Hard Skills</h2>
+        <p class="category-desc">Technical & programming expertise</p>
+        
+        <div class="skills-container">
+            <!-- Programming Languages -->
+            <div class="skill-group">
+                <h3><ion-icon name="laptop-outline"></ion-icon> Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <img src="img/html.png" alt="HTML">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%"></div>
+                            </div>
+                            <span class="skill-percent">Advanced</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/css.png" alt="CSS">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">Advanced</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/js.png" alt="JavaScript">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">Proficient</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/php.png" alt="PHP">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">Proficient</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/python.png" alt="Python">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%"></div>
+                            </div>
+                            <span class="skill-percent">Intermediate</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <img src="img/c++.png" alt="C++">
+                        <div class="skill-info">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%"></div>
+                            </div>
+                            <span class="skill-percent">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-group">
+                <h3><ion-icon name="construct-outline"></ion-icon> Tools & Technologies</h3>
+                <div class="skills-tags">
+                    <span class="skill-tag">Git & GitHub</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">REST APIs</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">WordPress</span>
+                    <span class="skill-tag">GitHub Pages</span>
+                    <span class="skill-tag">Microsoft Office</span>
+                    <span class="skill-tag">Google Workspace</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Soft Skills (Personal) -->
+    <div class="skills-category soft-skills">
+        <h2><ion-icon name="people-outline"></ion-icon> Soft Skills</h2>
+        <p class="category-desc">Personal & interpersonal abilities</p>
+        
+        <div class="soft-skills-container">
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                </div>
+                <h4>Communication</h4>
+                <p>Clear verbal and written communication in English & Burmese</p>
+            </div>
+            
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+                <h4>Problem Solving</h4>
+                <p>Analytical thinking for technical challenges</p>
+            </div>
+            
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <h4>Time Management</h4>
+                <p>Meeting deadlines & managing projects efficiently</p>
+            </div>
+            
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="people-circle-outline"></ion-icon>
+                </div>
+                <h4>Team Collaboration</h4>
+                <p>Experience in team projects & volunteer coordination</p>
+            </div>
+            
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="book-outline"></ion-icon>
+                </div>
+                <h4>Quick Learning</h4>
+                <p>Adaptability to new technologies</p>
+            </div>
+            
+            <div class="soft-skill-item">
+                <div class="soft-skill-icon">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <h4>Attention to Detail</h4>
+                <p>Precision in code, design & requirements</p>
+            </div>
+        </div>
+    </div>
+
+     <!-- Project Highlights -->
+    <div class="project-highlights">
+        <h2><ion-icon name="rocket-outline"></ion-icon> Project Highlights</h2>
+        <p class="category-desc">Innovative projects showcasing technical skills and problem-solving abilities</p>
+        
+        <div class="projects-container">
+            <!-- Project 1: E-commerce Website -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <ion-icon name="cart-outline"></ion-icon>
+                </div>
+                <h3>Silvera Skincare E-commerce Platform</h3>
+                <p class="project-desc">
+                    A fully responsive e-commerce website for skincare products with complete shopping functionality.
+                    Features include user authentication, product catalog with categories, shopping cart with real-time
+                    updates, secure checkout process, and admin dashboard for inventory management.
+                </p>
+                <div class="project-features">
+                    <div class="feature-item">
+                        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                        <span>AI-Powered Chatbot</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="shield-checkmark-outline"></ion-icon>
+                        <span>Secure Payment Integration</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        <span>Mobile-First Design</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="stats-chart-outline"></ion-icon>
+                        <span>Sales Analytics Dashboard</span>
+                    </div>
+                </div>
+                <p class="feature-detail">
+                    <strong>AI Chatbot:</strong> Integrated an intelligent chatbot using JavaScript and natural language
+                    processing to assist customers with product recommendations, skin type analysis, and order tracking.
+                    The chatbot reduces customer service workload by 40% and improves user engagement.
+                </p>
+                <div class="project-tech">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>REST API</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            
+            <!-- Project 2: AI IoT System -->
+            <div class="project-card">
+                <div class="project-icon">
+                    <ion-icon name="cloudy-outline"></ion-icon>
+                </div>
+                <h3>AI-Based Rain Detection Clothes Retriever</h3>
+                <p class="project-desc">
+                    An innovative IoT system that automatically detects rain and retrieves clothes using AI-powered
+                    weather prediction. The system combines hardware sensors with machine learning to prevent clothes
+                    from getting wet during unexpected rainfall.
+                </p>
+                <div class="project-features">
+                    <div class="feature-item">
+                        <ion-icon name="rainy-outline"></ion-icon>
+                        <span>Real-time Rain Detection</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="cog-outline"></ion-icon>
+                        <span>Automated Motor Control</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="stats-chart-outline"></ion-icon>
+                        <span>Weather Prediction AI</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="notifications-outline"></ion-icon>
+                        <span>Mobile Notifications</span>
+                    </div>
+                </div>
+                <p class="feature-detail">
+                    <strong>AI Training:</strong> Implemented TensorFlow for weather pattern recognition using historical
+                    weather data. The ML model predicts rain probability with 92% accuracy. The system uses humidity,
+                    temperature, and barometric pressure sensors with Arduino microcontroller, triggering automatic
+                    retraction mechanism when rain is detected.
+                </p>
+                <div class="project-tech">
+                    <span>Python</span>
+                    <span>TensorFlow</span>
+                    <span>Arduino</span>
+                    <span>IoT Sensors</span>
+                    <span>Machine Learning</span>
+                    <span>Raspberry Pi</span>
+                </div>
+            </div>
+            
+            <!-- Project 3: Portfolio & Other Projects -->
+            <!-- <div class="project-card">
+                <div class="project-icon">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                </div> -->
+                <!-- <h3>IoT Smart Monitoring System & Portfolio</h3>
+                <p class="project-desc">
+                    A comprehensive IoT monitoring solution for environmental tracking and this responsive portfolio
+                    website. The IoT system monitors temperature, humidity, and air quality with real-time data
+                    visualization, while the portfolio showcases my work with modern web technologies.
+                </p>
+                <div class="project-features">
+                    <div class="feature-item">
+                        <ion-icon name="thermometer-outline"></ion-icon>
+                        <span>Real-time Sensor Data</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="analytics-outline"></ion-icon>
+                        <span>Data Visualization</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                        <span>Dark/Light Themes</span>
+                    </div>
+                    <div class="feature-item">
+                        <ion-icon name="git-branch-outline"></ion-icon>
+                        <span>Version Control</span>
+                    </div>
+                </div>
+                <p class="feature-detail">
+                    <strong>Key Achievement:</strong> Successfully integrated multiple sensor modules (DHT11, MQ135)
+                    with Arduino Uno and created a web dashboard for real-time monitoring. The portfolio features
+                    smooth animations, responsive design, and theme switching—demonstrating both backend IoT skills
+                    and frontend development expertise.
+                </p>
+                <div class="project-tech">
+                    <span>HTML/CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Arduino</span>
+                    <span>Responsive Design</span>
+                    <span>Git/GitHub</span>
+                </div> -->
+            <!-- </div> -->
+        </div>
+    </div>
+</section>
+
+    <div class="sectionbreaker"></div>
+
+    <!-- Achievements -->
+    <section id="achievements">
+        <p class="section-mini">HNIN'S</p>
+        <h1>Achievements</h1>
+
+        <div class="achievements-tabs">
+            <div class="alltabs">
+                <!-- 1 -->
+                <div class="tabs">
+                    <img src="img/a1.jpg" alt="">
+                    <img id="below-img" src="img/a1.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Info Myanmar College</h3>
+                        <div class="content">
+                            <label>Got 1st Prize in Foundation, HNC and HND From Info Myanmar College.</label>
+                            <div class="divideline"></div>
+                            <label>Aug 2023 - Dec 2025</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="tabs">
+                    <img src="img/a3.jpg" alt="">
+                    <img id="below-img" src="img/a3.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>The Vine International Collage</h3>
+                        <div class="content">
+                            <label>Got High Level Qualifications in Secondary Education.</label>
+                            <div class="divideline"></div>
+                            <label>2021 - 2023</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="tabs">
+                    <img src="img/a5.jpg" alt="">
+                    <img id="below-img" src="img/a5.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Professional Web Developer</h3>
+                        <div class="content">
+                            <label> Successfully earned a Professional Web Developer certificate, demonstrating strong
+                                skills in designing and developing responsive, user-friendly websites using modern web
+                                technologies.
+                            </label>
+                            <div class="divideline"></div>
+                            <label>2024 - 2025</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="tabs">
+                    <img src="img/a7.jpg" alt="">
+                    <img id="below-img" src="img/a7.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Advanced English Proficiency</h3>
+                        <div class="content">
+                            <label> Successfully completed Advanced General English and Advanced Writing programs,
+                                demonstrating strong communication, academic writing, and professional language skills.
+                            </label>
+                            <div class="divideline"></div>
+                            <label>2022 - 2024</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- duplicate for smooth scroll -->
+                <div class="tabs">
+                    <img src="img/a1.jpg" alt="">
+                    <img id="below-img" src="img/a1.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Info Myanmar College</h3>
+                        <div class="content">
+                            <label>Got 1st Prize in Foundation, HNC and HND From Info Myanmar College.</label>
+                            <div class="divideline"></div>
+                            <label>Aug 2023 - Dec 2025</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <img src="img/a3.jpg" alt="">
+                    <img id="below-img" src="img/a3.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>The Vine International Collage</h3>
+                        <div class="content">
+                            <label>Got High Level Qualifications in Secondary Education.</label>
+                            <div class="divideline"></div>
+                            <label>2021 - 2023</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <img src="img/a5.jpg" alt="">
+                    <img id="below-img" src="img/a5.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Professional Web Developer</h3>
+                        <div class="content">
+                            <label> Successfully earned a Professional Web Developer certificate, demonstrating strong
+                                skills in designing and developing responsive, user-friendly websites using modern web
+                                technologies.
+                            </label>
+                            <div class="divideline"></div>
+                            <label>2024 - 2025</label>
+                        </div>
+                    </div>
+                </div>
+              <div class="tabs">
+                    <img src="img/a7.jpg" alt="">
+                    <img id="below-img" src="img/a7.jpg" alt="">
+                    <div class="content-tab">
+                        <h3>Advanced English Proficiency</h3>
+                        <div class="content">
+                            <label> Successfully completed Advanced General English and Advanced Writing programs,
+                                demonstrating strong communication, academic writing, and professional language skills.
+                            </label>
+                            <div class="divideline"></div>
+                            <label>2022 - 2024</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="sectionbreaker" style="margin-top: -50px;"></div>
+
+    <!-- Contact -->
+    <section id="contact">
+        <p class="section-mini">GET IN TOUCH</p>
+        <h1>Contact</h1>
+
+        <div class="contact-container">
+            <!-- <div class="animate-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <h5>Social</h5>
+                <label>Hnin Ya Ti (aurelia)</label>
+                <ion-icon name="logo-facebook" id="fadeicon"></ion-icon>
+            </div> -->
+
+            <div class="animate-box">
+                <ion-icon name="mail-outline"></ion-icon>
+                <h5>Email</h5>
+                <label>hninyati3106@gmail.com</label>
+                <ion-icon name="mail-outline" id="fadeicon"></ion-icon>
+            </div>
+
+            <div class="animate-box">
+                <ion-icon name="call-outline"></ion-icon>
+                <h5>Call Me!</h5>
+                <label>+959-955-361-360</label>
+                <ion-icon name="call-outline" id="fadeicon"></ion-icon>
+            </div>
+
+                   <div class="animate-box">
+                <ion-icon name="location-outline"></ion-icon>
+                <h5>My Address</h5>
+               <label>SouthOkkalapa,Yangon,Myanmar</label>
+             <ion-icon name="location-outline" id="fadeicon"></ion-icon>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <p>Copyright © 2025 Hnin Portfolio, All Right Reserved.</p>
+            <p>Designed By Hnin.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
